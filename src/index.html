@@ -1,14 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="barra-de-contenido">
+    <header>
+      <!--barraDeNavegacion-->
+
+      <div class="barra-navegacion">
+        <a href="">Nosotros</a>
+        <a href="">Productos</a>
+        <a href="">Contacto</a>
+        <button class="boton-compra"> Comprar</button>
+      </div>
+
+    </header>
+  </div>
+
+  <!--partePrincipal-->
+  <div class="seccion-rotosfera">
+    <main>
+      <!--seccion 1-->
+      <div class="rotosfera-azul">
+        <section>
+          <h1>Rotosfera</h1>
+          <p>Pulidora de eje flexible</p>
+          <img src="./imagenes-cardValidation/rotosfera.png" alt="imagenDeRotosfera" />
+        </section>
+      </div>
+
+
+
+
+      <!--seccion 4 formulario-->
+      <div class="formulario-validadoor">
+        <fieldset>
+          <label for="nombre">
+            <span> Ingresa tu nombre </span>
+            <input type="tex" id="nombre" placeholder="tu nombre">
+          </label>
+          <label for="numeroDeTarjeta">
+            <span> Ingresa tu el numero de la tarjeta </span>
+            <input type="tex" id="numeroDeTj" placeholder="los digitos de tu targeta">
+          </label>
+          <label for="fechaDeVencimiento">
+            <span> Fercha de vencimiento </span>
+            <input type="month" id="fechaDeVencimiento" placeholder="04/2025">
+          </label>
+          <label for="codigoDeSeguridad">
+            <span> CVV </span>
+            <input type="number" id="codigoDeSeguridad" placeholder="los 3 digitos detras de tu targeta">
+          </label>
+          <div> <input type="submit" value="verificar" id="verificar"> </div>
+        </fieldset>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+
+  </footer>
+
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
