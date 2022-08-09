@@ -1,15 +1,14 @@
 
 *{ 
     box-sizing: border-box;
-    font-family: 'Roboto';
+    font-family: "Times New Roman";
 }
 
 .barra-navegacion {
   
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row ;
     align-items: center;
-   
     gap: 32px;
     
 }
@@ -21,30 +20,29 @@
 }
 
 .seccion-rotosfera{
-  
-    width: 1407px;
-    height: 838px;
-    left: 1px;
-    top: 68px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-    background-color: #FE9A22;
+    background-color: lightgrey;
+    width: auto;
+    border: 5px solid rgb(55, 128, 0);
+    padding: 50px;
+    margin: 20px; 
+    font-family: "Times New Roman";
+}
+
+.rotosfera{
+
+    font-family: "Times New Roman";
+}
+
+.imagen-rotosfera{ 
+    width: 300px;
+    height: 400px;
 
 }
 
-.rotosfera {
-    width: 540px;
-    height: 98px;
-}
-
-
-.imagen-rotosfera{
-   
-    width: 600px;
-    height: 566px;
-    right: 0px;
-    top: 0px;
+.formulario-validador{
+    background-color: rgb(48, 102, 201);
+    width: auto;
+    border: 5px solid rgb(55, 128, 0);
+    padding: 50px;
+    margin: 20px; 
 }

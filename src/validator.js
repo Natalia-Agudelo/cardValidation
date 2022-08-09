@@ -13,7 +13,7 @@ const validator = {
     // convertir string en array
 
     let numeroArray = numeroTarjetaRever.split("");
-    console.log(numeroArray);
+    
 
     // seleccion de numeros en posicion par y multiplicacion de cada numero *2
 
@@ -21,7 +21,7 @@ const validator = {
     numeroArray.forEach((element, index) => {
       if (index % 2 > 0) {
         nDobles.push(element * 2);
-        console.log(nDobles);
+      
       } else {
         nDobles.push(parseInt(element));
       }
@@ -33,7 +33,7 @@ const validator = {
     nDobles.forEach((element) => {
       if (element > 9) {
         nMayores.push(element - 9);
-        console.log(nMayores);
+      
       } else {
         nMayores.push(element);
         
