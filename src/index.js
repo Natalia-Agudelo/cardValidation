@@ -45,10 +45,10 @@ document.getElementById("verificar").addEventListener("click", () => {
 
   console.log(enmascarar);
 
-  if (aprobado == true) {
+  if (verificacion == true) {
     return alert("¡Ya puedes compra!");
   } else {
-    aprobado == false;
+    verificacion == false;
     return alert("¡intenta de nuevo!");
   }
 });
